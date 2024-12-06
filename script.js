@@ -5,6 +5,7 @@ const bg=document.getElementById("changebg")
 function changeColor() {
     output.style.backgroundColor = colours[currentIndex]
     currentIndex= (currentIndex +1)%colours.length
-   bg.style.background= "blue"
+   
 }
+
 
